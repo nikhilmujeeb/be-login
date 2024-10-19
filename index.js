@@ -8,7 +8,7 @@ const authRoutes = require("./routes/auth");
 const app = express();
 
 // Database connection
-const dbURI = 'mongodb://127.0.0.1:27017/login_db';
+const dbURI = 'mongodb+srv://nikhilmujeeb:sjgnXxzO2CqiPjlL@login.0ccva.mongodb.net/?retryWrites=true&w=majority&appName=login';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Database is connected'))
   .catch((err) => {

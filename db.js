@@ -1,6 +1,6 @@
 // db.js
 const mongoose = require('mongoose');
-const mongoURI = process.env.MONGO_URI || 'mongodb://localhost:27017/login_db';
+const mongoURI = process.env.MONGO_URI || 'mongodb+srv://nikhilmujeeb:sjgnXxzO2CqiPjlL@login.0ccva.mongodb.net/?retryWrites=true&w=majority&appName=login';
 
 const connectDB = async () => {
   try {
