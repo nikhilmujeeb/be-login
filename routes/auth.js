@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const { User } = require("../models/user"); // Ensure this path is correct
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const Joi = require("joi");
 
 // Login route
